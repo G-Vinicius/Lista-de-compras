@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista de Compras</title>
+    <meta charset="utf-8" />
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Lista de Compras</h1>
+    <hr />
+    <p>
+      <div id="inputs">
+        <input id="inputItem" type="text" placeholder="Descrição"/>
+        <input id="inputPreco" type="number" placeholder="Preço">
+        <input id="inputQntd" type="number" placeholder="Quantidade">
+      </div>
+      <div id="btns">
+        <button id="btLimpar">Limpar</button>
+        <button id="btAdicionar">Adicionar</button>
+      </div>
+    </p>
+    <hr />
+    <section id="table-section">
+      <table id="tabela">
+          <tr>
+              <th>Descrição</th>
+              <th>Preço</th>
+              <th>Quantidade</th>
+          </tr>
+      </table>
+    </section>
+  </body>
+</html>
